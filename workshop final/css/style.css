@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600,700|Unlock');
+
+body {
+  background-color: magenta;
+  background-image: url("images/nose.jpg");
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+}
+
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Unlock", sans-serif;
+  color:  cyan;
+  font-size: 85px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+}
+
+hr {
+  border: 1px solid red;
+  max-width: 90px;
+  margin: 40px auto;
+}
+
+li {
+  display: inline-block;
+  margin: 30px;
+}
+
+.mammal {
+  color: red;
+   padding-right: 20px;
+   padding-left: 20px;
+
+}
+
+.bird {
+  color: blue;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+.fish {
+  color: orange;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+
+
+#firstList {
+  background-color: lime
+
+}
+
+
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+    li:hover {
+      background-color: black;
+    }
